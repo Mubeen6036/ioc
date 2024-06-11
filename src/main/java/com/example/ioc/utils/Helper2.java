@@ -35,6 +35,7 @@ public class Helper2 {
             System.out.println(Thread.currentThread().getName());
             count++;
             System.out.println(count);
+            System.out.println(count);
         }
     }
 }
