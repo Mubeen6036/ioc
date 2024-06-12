@@ -14,6 +14,7 @@ public class Helper {
         System.out.println(Thread.currentThread().getName());
         Thread.currentThread().sleep(100);
         System.out.println("method 2 Ended");
+        System.out.println("method 2 Ended");
     }
 
     public static void main(String[] args){
