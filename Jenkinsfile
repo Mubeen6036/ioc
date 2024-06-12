@@ -1,11 +1,11 @@
 pipeline{
     agent any
     stages{
-        stage("cleanup"){
-            steps{
-                deleteDir()
-            }
-        }
+//         stage("cleanup"){
+//             steps{
+//                 deleteDir()
+//             }
+//         }
         stage("Build"){
             steps{
                 dir("ioc"){
