@@ -23,7 +23,7 @@ pipeline{
 
         stage("Deploy"){
             steps{
-                sh "java -jar /target/ioc-0.0.1-SNAPSHOT.jar"
+                sh "sudo java -jar /target/ioc-0.0.1-SNAPSHOT.jar"
             }
         }
 
