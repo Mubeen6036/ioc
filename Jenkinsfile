@@ -8,14 +8,14 @@ pipeline{
         }
         stage("Build"){
             steps{
-                dir("GitHub"){
+                dir("ioc"){
                     sh "mvn clean install"
                 }
             }
         }
         stage("Test"){
             steps{
-                dir("GitHub"){
+                dir("ioc"){
                     sh "mvn test"
                 }
             }
