@@ -8,14 +8,14 @@ pipeline{
         }
         stage("Build"){
             steps{
-                dir("simple-java-maven-app"){
+                dir("GitHub"){
                     sh "mvn clean install"
                 }
             }
         }
         stage("Test"){
             steps{
-                dir("simple-java-maven-app"){
+                dir("GitHub"){
                     sh "mvn test"
                 }
             }
