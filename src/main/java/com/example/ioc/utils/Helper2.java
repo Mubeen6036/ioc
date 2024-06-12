@@ -31,6 +31,7 @@ public class Helper2 {
 //        System.out.println(Thread.currentThread().getName());
 //        Thread.currentThread().sleep(100);
 //        System.out.println("method 2 Ended");
+        System.out.println(count);
         for(int i=0; i<5; i++){
             System.out.println(Thread.currentThread().getName());
             count++;
