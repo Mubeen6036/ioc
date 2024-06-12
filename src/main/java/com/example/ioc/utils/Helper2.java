@@ -36,6 +36,9 @@ public class Helper2 {
             count++;
             System.out.println(count);
             System.out.println(count);
+            System.out.println(count);
+            System.out.println(count);
+            System.out.println(count);
         }
     }
 }
