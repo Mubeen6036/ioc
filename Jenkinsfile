@@ -8,16 +8,16 @@ pipeline{
         }
         stage("Build"){
             steps{
-                dir("ioc"){
+//                 dir("ioc"){
                     sh "mvn clean install"
-                }
+//                 }
             }
         }
         stage("Test"){
             steps{
-                dir("ioc"){
+//                 dir("ioc"){
                     sh "mvn test"
-                }
+//                 }
             }
         }
     }
